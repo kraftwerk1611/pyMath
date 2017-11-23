@@ -15,6 +15,9 @@ def multiply(x, y):
 
 def divide(x, y):
     """Divide Function"""
-    if y == 0:
+    if y == 0: #this avoid division by zero
         raise ValueError('Can not divide by zero!')
     return x / y
+
+def sqroot(x):
+    pass
